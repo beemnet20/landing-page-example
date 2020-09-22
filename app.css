@@ -1,0 +1,35 @@
+#content {
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 0px 4px 3px rgb(78, 51, 39, 0.4), 0px 8px 13px rgb(146, 95, 73, 0.1), 0px 18px 23px rgb(226, 148, 114, 0.1);
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
+    background-size: cover;
+    /* line below not needed for splash page if html height is 100% */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    font-family: Lato;
+}
+
+h1 {
+    color: #2D1D16;
+    font-weight: 700;
+    font-size: 5em;
+}
+
+h3 {
+    color: #2D1D16;
+}
+
+html {
+    height: 100%;
+}
+
+hr {
+    width: 400px;
+    /* transparent top and bottom border for shaddow effect */
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
+}
